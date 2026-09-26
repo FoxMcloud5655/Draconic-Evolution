@@ -24,7 +24,7 @@ public class CraftingInventoryWrapper extends TransientCraftingContainer {
 
     @Override
     public int getContainerSize() {
-        return wrapped.getSlots();
+        return wrapped.getSlots() - 1;
     }
 
     @Override
